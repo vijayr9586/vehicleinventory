@@ -59,7 +59,7 @@ public class Vehicle implements Serializable{
 	 
 	    @Override
 	    public String toString() {
-	        return String.format("Vehicle[id=%d, vehicleName='%s', vehicleType='%s']", id, vehicleName, vehicleType);
+	        return String.format("{\"id\":\"%d\", \"vehicleName\":\"%s\", \"vehicleType\":\"%s\"}", id, vehicleName, vehicleType);
 	    }
 	}
 
